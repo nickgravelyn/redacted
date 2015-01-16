@@ -2,6 +2,8 @@
 
 A plugin for Sublime Text to hide text inside a selection.
 
+![Redact Demo](/redact.gif?raw=true "Redact Demo")
+
 The idea came from wanting to be able to write up some kind of form letter and leave a placeholder for a code/key/etc. Rather than leave it blank, I thought it would be nice to put in a real key and then have it blank out. But I wanted to keep punctuation in there so it was clear what the space was for.
 
 Written and tested with Sublime Text 3. Hopefully works with Sublime Text 2.
