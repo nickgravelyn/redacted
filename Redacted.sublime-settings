@@ -1,0 +1,12 @@
+// Don't change any setting on this file. If you want to override the default
+// behaviour, change the settings values on your
+// Packages/User/Redacted.sublime-settings file.
+{
+  // Regular expression used to match characters to be redacted.
+  // By default it's any non-whitespace, non-punctuation character.
+  "redacted_search": "[^\\{P}^\\W]",
+
+  // Character used to replace redacted characters.
+  // Should be a single character, but technically it doesn't need to be.
+  "redacted_replacement": "?"
+}
