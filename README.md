@@ -23,7 +23,7 @@ Redacted has two simple settings to completely control its behavior. Here are th
 
     // Regular expression used to match characters to be redacted.
     // By default it's any non-whitespace, non-punctuation character.
-    "redacted_search": "[^\\{P}^\\W]"
+    "redacted_search": "[\\P{P}\\w]"
 
     // Character used to replace redacted characters.
     // Should be a single character, but technically it doesn't need to be.

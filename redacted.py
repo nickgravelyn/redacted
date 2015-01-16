@@ -4,7 +4,7 @@ settings = None
 
 class RedactedCommand(sublime_plugin.TextCommand):
   def run(self, edit):
-    find = settings.get("redacted_search", "[^\\{P}^\\W]")
+    find = settings.get("redacted_search", "[\\P{P}\\w]")
     replace = settings.get("redacted_replacement", "?")
 
     for region in self.view.sel():
