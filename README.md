@@ -8,6 +8,11 @@ The idea came from wanting to be able to write up some kind of form letter and l
 
 Written and tested with Sublime Text 3. Hopefully works with Sublime Text 2.
 
+## Installation
+
+1. Clone or download the repo into a directory named "Redacted".
+2. Put that directory into Sublime's Packages directory. On OS X that'd be `~/Library/Application Support/Sublime Text 3/Packages/Redacted`.
+
 ## Usage
 
 1. Select some text.
