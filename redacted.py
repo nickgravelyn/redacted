@@ -15,3 +15,5 @@ class RedactedCommand(sublime_plugin.TextCommand):
 def plugin_loaded():
   global settings
   settings = sublime.load_settings("Redacted.sublime-settings")
+
+if int(sublime.version()) < 3000: plugin_loaded()
